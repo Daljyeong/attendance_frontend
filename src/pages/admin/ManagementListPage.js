@@ -30,6 +30,7 @@ function App() {
               </div>
             </div>
           </div>
+
           <div className="col-md-4 mb-5">
             <div className="card h-100">
               <div className="card-body">
@@ -43,13 +44,14 @@ function App() {
                   className={`btn btn-primary btn-sm ${
                     deptID === 0 ? "disabled" : ""
                   }`}
-                  href="#!"
+                  href="schedule-check"
                 >
                   More Info
                 </a>
               </div>
             </div>
           </div>
+
           <div className="col-md-4 mb-5">
             <div className="card h-100">
               <div className="card-body">
@@ -65,6 +67,7 @@ function App() {
               </div>
             </div>
           </div>
+
           <div className="col-md-4 mb-5">
             <div className="card h-100">
               <div className="card-body">

@@ -11,6 +11,7 @@ import Signup from "./pages/common/SignupPage";
 import EditWorkRecords from "./pages/admin/EditWorkRecordsPage";
 import DepartmentManagementPage from "./pages/admin/DepartmentManagementPage";
 import UserManagementPage from "./pages/admin/UserManagementPage";
+import ScheduleCheckPage from "./pages/admin/ScheduleCheckPage";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -50,6 +51,15 @@ root.render(
           <div>
             <Nav> </Nav>
             <EditWorkRecords />
+          </div>
+        }
+      />
+      <Route
+        path="/schedule-check"
+        element={
+          <div>
+            <Nav> </Nav>
+            <ScheduleCheckPage />
           </div>
         }
       />
